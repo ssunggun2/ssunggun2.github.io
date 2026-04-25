@@ -208,7 +208,6 @@ plugins:
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
-  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
@@ -234,9 +233,7 @@ sass:
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+# jekyll-minifier disabled (caused blank page due to Nokogiri doctype bug)
 
 # -----------------------------------------------------------------------------
 # Terser
