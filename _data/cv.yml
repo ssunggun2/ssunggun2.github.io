@@ -1,81 +1,74 @@
+# GENERATED FILE — do not edit by hand.
+# Source: career/documents/resume-cv/master-profile.yml (Obsidian vault)
+# Regenerate: python3 tools/sync_from_vault.py
 cv:
   name: Sunggeun An
   label: ML/NLP Researcher
   email: ssunggun2@snu.ac.kr
   location: Seoul, South Korea
-  image: ""
-  summary: >
-    ML/NLP researcher and engineer with industry experience in building
-    language model pipelines and production-level NLP APIs.
-    Currently pursuing a Master's degree at the Graduate School of Data Science,
-    Seoul National University.
+  image: ''
+  summary: 'ML/NLP researcher and engineer with industry experience in building language model pipelines
+    and production-level NLP APIs. Currently pursuing a Master''s degree at the Graduate School of Data
+    Science, Seoul National University.
 
+    '
   social_networks:
-    - network: GitHub
-      username: ssunggun2
-    - network: LinkedIn
-      username: sunggeun-an-08a459283
-
+  - network: GitHub
+    username: ssunggun2
+  - network: LinkedIn
+    username: sunggeun-an-08a459283
   sections:
     Education:
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        url: https://gsds.snu.ac.kr/
-        area: Data Science
-        studyType: M.S.
-        start_date: 2024
-        end_date: 2026
-        highlights:
-          - Graduate School of Data Science (GSDS)
-
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        url: https://www.snu.ac.kr/
-        area: Geography Education
-        studyType: B.S.
-        start_date: 2012
-        end_date: 2021
-        highlights:
-          - College of Education, Department of Geography Education
-
+    - institution: Seoul National University
+      location: Seoul, South Korea
+      url: https://gsds.snu.ac.kr/
+      area: Data Science
+      studyType: M.S.
+      start_date: 2024
+      end_date: 2026
+      highlights:
+      - Graduate School of Data Science (GSDS)
+    - institution: Seoul National University
+      location: Seoul, South Korea
+      url: https://www.snu.ac.kr/
+      area: Geography Education
+      studyType: B.S.
+      start_date: 2012
+      end_date: 2021
+      highlights:
+      - College of Education, Department of Geography Education
     Experience:
-      - company: AiMPACT Inc. (에이임팩트)
-        position: ML/NLP Engineer
-        location: Seoul, South Korea
-        start_date: 2021-12
-        end_date: 2023-12
-        highlights:
-          - Built and trained Korean language models for address and message extraction
-          - Designed and deployed NLP APIs using FastAPI, serving real-time inference
-          - Implemented OCR pipelines integrating Naver Clova and GCP Vision APIs
-          - Migrated backend from Flask to FastAPI with async processing for 3x throughput
-          - Integrated Redis caching and AWS SQS/Lambda for scalable async workflows
-          - Deployed and managed services on AWS ElasticBeanstalk
-
+    - company: AiMPACT Inc. (에이임팩트)
+      position: ML/NLP Engineer
+      location: Seoul, South Korea
+      start_date: 2021-12
+      end_date: 2023-12
+      highlights:
+      - Built and trained Korean language models for address and message extraction
+      - Designed and deployed NLP APIs using FastAPI, serving real-time inference
+      - Implemented OCR pipelines integrating Naver Clova and GCP Vision APIs
+      - Migrated backend from Flask to FastAPI with async processing for 3x throughput
+      - Integrated Redis caching and AWS SQS/Lambda for scalable async workflows
+      - Deployed and managed services on AWS ElasticBeanstalk
     Skills:
-      - name: Machine Learning & Deep Learning
-        level: Advanced
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers"
-
-      - name: NLP
-        level: Advanced
-        icon: fa-solid fa-language
-        keywords: "Language Models, Text Classification, Named Entity Recognition, OCR"
-
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, SQL"
-
-      - name: MLOps & Cloud
-        level: Intermediate
-        icon: fa-brands fa-aws
-        keywords: "AWS (SQS, Lambda, ElasticBeanstalk), Docker, FastAPI, Redis"
-
+    - name: Machine Learning & Deep Learning
+      level: Advanced
+      icon: fa-solid fa-brain
+      keywords: PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers
+    - name: NLP
+      level: Advanced
+      icon: fa-solid fa-language
+      keywords: Language Models, Text Classification, Named Entity Recognition, OCR
+    - name: Programming
+      level: Advanced
+      icon: fa-solid fa-code
+      keywords: Python, SQL
+    - name: MLOps & Cloud
+      level: Intermediate
+      icon: fa-brands fa-aws
+      keywords: AWS (SQS, Lambda, ElasticBeanstalk), Docker, FastAPI, Redis
     Languages:
-      - name: Korean
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Professional working proficiency"
+    - name: Korean
+      summary: Native speaker
+    - name: English
+      summary: Professional working proficiency
