@@ -1,15 +1,8 @@
 name: Render a CV
+# Disabled: the CV PDF is built by tools/build_cv_pdf.py from the Obsidian vault
+# master profile, not by RenderCV. _data/cv.yml uses the al-folio page schema, which
+# RenderCV rejects. Kept for reference; runs only if triggered by hand.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
-  workflow_call:
   workflow_dispatch:
 permissions:
   contents: write
