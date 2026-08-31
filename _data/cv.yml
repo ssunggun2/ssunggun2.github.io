@@ -7,9 +7,9 @@ cv:
   email: ssunggun2@snu.ac.kr
   location: Seoul, South Korea
   image: ''
-  summary: 'ML/NLP researcher and engineer with industry experience in building language model pipelines
-    and production-level NLP APIs. Currently pursuing a Master''s degree at the Graduate School of Data
-    Science, Seoul National University.
+  summary: 'ML/NLP researcher working on multimodal large language models, physical reasoning, and evaluation
+    methodology. M.S. in Data Science from Seoul National University (2026), with prior industry experience
+    building language model pipelines and production NLP APIs.
 
     '
   social_networks:
@@ -24,10 +24,11 @@ cv:
       url: https://gsds.snu.ac.kr/
       area: Data Science
       studyType: M.S.
-      start_date: 2024
-      end_date: 2026
+      start_date: 2024-03
+      end_date: 2026-08
       highlights:
-      - Graduate School of Data Science (GSDS)
+      - Graduate School of Data Science (GSDS), SKI-ML Lab
+      - 'Thesis: UNREAL — Uncovering Physics Reasoning Limits in MLLMs'
     - institution: Seoul National University
       location: Seoul, South Korea
       url: https://www.snu.ac.kr/
@@ -38,6 +39,38 @@ cv:
       highlights:
       - College of Education, Department of Geography Education
     Experience:
+    - company: Seoul National University, SKI-ML Lab
+      position: M.S. Student, Research Assistant
+      location: Seoul, South Korea
+      start_date: 2024-03
+      end_date: 2026-08
+      highlights:
+      - 'Master''s thesis (UNREAL): built a benchmark probing whether multimodal LLMs reason from the
+        video in front of them or fall back on pretrained physical priors, synthesizing 1,528 videos in
+        Kubric under 15 categories of deliberate physics violations with staged QA'
+      - Proposed Reality Bias Rate and World-Model Inconsistency Rate as evaluation metrics and validated
+        them against a 13-annotator human study
+      - Built PhysAgent, an agent pipeline that delegates perception to vision specialists (Depth-Anything-V2,
+        RAFT, SAM2) so the MLLM handles reasoning only
+      - Lab manager, operating the shared GPU cluster and LLM API gateway and running the weekly seminar
+        and onboarding program
+      - Organizing committee, SNU AI Challenge 2026 — designed the Kaggle task and evaluation metric,
+        and scored final reports against a rubric
+    - company: LG - Seoul National University Industry Collaboration
+      position: Research Assistant
+      location: Seoul, South Korea
+      start_date: 2026-05
+      end_date: 2026-07
+      highlights:
+      - Led evaluation and dataset research for adapting a Korean LLM (EXAONE-3.5-7.8B-Instruct) beyond
+        finance QA into long-tail expert domains
+      - Designed a pass@k diagnostic framework (N=128 sampling) after showing that single-shot accuracy
+        cannot separate latent capability from trained capability
+      - Defined A-C difficulty tiers from the gap between pass@1 and pass@128 to justify which benchmarks
+        were worth training on
+      - Surveyed and validated candidate datasets across finance, science, medicine, and engineering (ConvFinQA,
+        FinanceReasoning, SciBench, MedCalc-Bench, TheoremQA, ThermoQA), and established that multiple-choice
+        tasks are structurally unsuited to pass@k analysis
     - company: AiMPACT Inc. (에이임팩트)
       position: ML/NLP Engineer
       location: Seoul, South Korea
@@ -50,15 +83,32 @@ cv:
       - Migrated backend from Flask to FastAPI with async processing for 3x throughput
       - Integrated Redis caching and AWS SQS/Lambda for scalable async workflows
       - Deployed and managed services on AWS ElasticBeanstalk
+    Publications:
+    - title: 'Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention'
+      publisher: Findings of EMNLP
+      date: '2026'
+      url: https://openreview.net/forum?id=jqrg278fKi
+      summary: 'Jongbin Won, Sung Geun An, Jay-Yoon Lee. A two-stage framework in which a lightweight
+        Longformer sieve filters distracting documents before an LLM decides whether to abstain, improving
+        system accuracy by 69.4%p and macro-F1 by 55.2%p while running 1.99x faster than the retrieval-abstention
+        baseline.
+
+        '
     Skills:
     - name: Machine Learning & Deep Learning
       level: Advanced
       icon: fa-solid fa-brain
       keywords: PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers
-    - name: NLP
+    - name: NLP & Multimodal
       level: Advanced
       icon: fa-solid fa-language
-      keywords: Language Models, Text Classification, Named Entity Recognition, OCR
+      keywords: Large Language Models, Multimodal LLMs, Vision-Language Models, Retrieval-Augmented Generation,
+        Named Entity Recognition, OCR
+    - name: Evaluation & Benchmarking
+      level: Advanced
+      icon: fa-solid fa-chart-simple
+      keywords: Benchmark Design, Human Evaluation Study Design, pass@k Diagnostics, Prompting Strategy
+        Analysis
     - name: Programming
       level: Advanced
       icon: fa-solid fa-code
