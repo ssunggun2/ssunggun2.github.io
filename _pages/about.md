@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.S. Student @ <a href="https://gsds.snu.ac.kr/" target="_blank">GSDS, Seoul National University</a> &nbsp;·&nbsp;
-  ML / NLP Engineer
+  M.S. in Data Science, <a href="https://gsds.snu.ac.kr/" target="_blank">GSDS, Seoul National University</a> &nbsp;·&nbsp;
+  ML / NLP Researcher
 
 profile:
   align: right
@@ -25,15 +25,16 @@ latest_posts:
   enabled: false
 ---
 
-I am a Master's student at the [Graduate School of Data Science (GSDS)](https://gsds.snu.ac.kr/) at Seoul National University, where I focus on machine learning and natural language processing.
+I hold a Master's degree from the [Graduate School of Data Science (GSDS)](https://gsds.snu.ac.kr/) at Seoul National University, where I worked in the SKI-ML Lab on multimodal large language models and evaluation methodology. My thesis, UNREAL, asks whether multimodal LLMs actually reason from the video in front of them or fall back on physical priors learned during pretraining.
 
-Before joining GSDS, I worked as an ML/NLP Engineer at **AiMPACT Inc.** for two years, where I built Korean language model pipelines, designed production NLP APIs, and deployed scalable services on AWS. I have hands-on experience spanning the full lifecycle of NLP systems — from data collection and model training to serving and monitoring in production.
+Before joining GSDS, I worked as an ML/NLP Engineer at **Aimpact** for two years, where I built Korean language model pipelines, designed production NLP APIs, and deployed scalable services on AWS. I have hands-on experience spanning the full lifecycle of NLP systems — from data collection and model training to serving and monitoring in production.
 
-My interests lie in **natural language processing**, **large language models**, and their practical applications in real-world systems.
+My interests lie in **multimodal large language models**, **physical reasoning**, and **evaluation and benchmark design** for language models.
 
 ---
 
 **Background:**
+
 - B.S. in Geography Education, Seoul National University (2012–2021)
+- ML/NLP Engineer, Aimpact (2021–2023)
 - M.S. in Data Science, GSDS, Seoul National University (2024–2026)
-- ML/NLP Engineer, AiMPACT Inc. (2021–2023)

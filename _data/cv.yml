@@ -2,7 +2,7 @@
 # Source: career/documents/resume-cv/master-profile.yml (Obsidian vault)
 # Regenerate: python3 tools/sync_from_vault.py
 cv:
-  name: Sunggeun An
+  name: SungGeun AN
   label: ML/NLP Researcher
   email: ssunggun2@snu.ac.kr
   location: Seoul, South Korea
@@ -60,7 +60,7 @@ cv:
         and onboarding program
       - Organizing committee, SNU AI Challenge 2026 — designed the Kaggle task and evaluation metric,
         and scored final reports against a rubric
-    - company: AiMPACT Inc. (에이임팩트)
+    - company: Aimpact
       position: ML/NLP Engineer
       location: Seoul, South Korea
       start_date: 2021-12
