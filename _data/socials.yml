@@ -1,6 +1,15 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
+# supported keys: https://github.com/george-gca/jekyll-socials
 email: ssunggun2@snu.ac.kr
 github_username: ssunggun2
 linkedin_username: sunggeun-an-08a459283
+orcid_id: 0009-0009-1750-9827
 rss_icon: false
+
+# OpenReview has no built-in key in jekyll-socials, so it goes through custom_social.
+# The logo is served by openreview.net; swap in a local asset if that ever breaks.
+custom_social:
+  logo: https://openreview.net/images/openreview_logo_512.png
+  title: OpenReview
+  url: https://openreview.net/profile?id=~SungGeun_AN1

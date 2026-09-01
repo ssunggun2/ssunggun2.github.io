@@ -315,7 +315,7 @@ def build_html(profile):
         render_service(profile),
         render_skills(profile),
     ])
-    title = esc(me) + " — CV"
+    title = esc(basics.get("name", "")) + " — CV"
     return (
         "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
         f"<title>{title}</title>\n<style>\n{stylesheet()}</style>\n</head>\n<body>\n"

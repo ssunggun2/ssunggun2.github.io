@@ -61,7 +61,8 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // al-folio ships this as monospace; kept in the body face so it sits with the text.
+    font-size: 0.95rem;
 
     p {
       display: inline-block;

@@ -7,7 +7,8 @@ first_name: SungGeun
 middle_name:
 last_name: AN
 contact_note: >
-  Feel free to reach out via email for research or collaboration inquiries.
+  Email is the best way to reach me — happy to talk about multimodal evaluation,
+  benchmark design, or collaboration.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal portfolio and resume of SungGeun AN — ML/NLP researcher at GSDS, Seoul National University.
 footer_text: >
@@ -265,8 +266,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [An, AN]
+  first_name: [Sung Geun, SungGeun, Sunggeun, S. G.]
 
   style: apa
   locale: en
