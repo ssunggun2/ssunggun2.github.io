@@ -28,7 +28,7 @@ cv:
       end_date: 2026-08
       highlights:
       - Graduate School of Data Science (GSDS), SKI-ML Lab
-      - 'Thesis: UNREAL — Uncovering Physics Reasoning Limits in MLLMs'
+      - 'M.S. thesis, UNREAL: Uncovering Physics Reasoning Limits in MLLMs'
     - institution: Seoul National University
       location: Seoul, South Korea
       url: https://www.snu.ac.kr/
@@ -45,21 +45,21 @@ cv:
       start_date: 2024-03
       end_date: 2026-08
       highlights:
-      - 'Master''s thesis (UNREAL): built a benchmark probing whether multimodal LLMs reason from the
-        video in front of them or fall back on pretrained physical priors, synthesizing 1,528 videos in
-        Kubric under 15 categories of deliberate physics violations with staged QA'
-      - Proposed Reality Bias Rate and World-Model Inconsistency Rate as evaluation metrics and validated
-        them against a 13-annotator human study
-      - Built PhysAgent, an agent pipeline that delegates perception to vision specialists (Depth-Anything-V2,
-        RAFT, SAM2) so the MLLM handles reasoning only
+      - 'M.S. thesis (UNREAL): a benchmark that tests whether multimodal LLMs reason from the video in
+        front of them or fall back on physical priors learned in pretraining. Synthesized 1,528 videos
+        in Kubric under 15 categories of deliberate physics violations with staged QA, and proposed two
+        metrics (Reality Bias Rate, World-Model Inconsistency Rate) validated against a 13-annotator human
+        study'
       - 'Industry collaboration with LG (2026): led evaluation and dataset research for extending a Korean
         LLM (EXAONE-3.5-7.8B-Instruct) beyond finance QA into long-tail expert domains, designing a pass@k
         diagnostic framework (N=128) that separates latent from trained capability and grades benchmarks
         into difficulty tiers by the pass@1 to pass@128 gap'
-      - Lab manager, operating the shared GPU cluster and LLM API gateway and running the weekly seminar
-        and onboarding program
-      - Organizing committee, SNU AI Challenge 2026 — designed the Kaggle task and evaluation metric,
-        and scored final reports against a rubric
+      - 'Lab manager (2026): ran lab operations, including intern and member onboarding, seat and resource
+        allocation, and research budget handling with the advisor and administrative staff. Set the usage
+        policy for the shared GPU servers and the LLM API gateway, arbitrated allocation and outages,
+        ran the weekly group meeting and paper seminars, and documented the procedures for handover'
+      - 'Organizing committee, SNU AI Challenge 2026: designed the Kaggle task and evaluation metric,
+        and scored final reports against a rubric'
     - company: Aimpact
       position: ML/NLP Engineer
       location: Seoul, South Korea
