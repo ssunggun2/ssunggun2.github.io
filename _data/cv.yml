@@ -97,15 +97,16 @@ cv:
       - Graded assignments and exams against a shared rubric.
     - company: Samsung Electronics, DS2 program
       position: Teaching assistant, NLP and LLM intensive
-      location: SNU-Samsung joint research center, Seoul
+      location: Seoul, South Korea
       start_date: 2025-08
       end_date: 2025-08
-      summary: Intensive course for practicing Samsung engineers.
+      summary: Intensive course for practicing Samsung engineers, held at the SNU-Samsung joint research
+        center.
       highlights:
       - Ran TA office-hour sessions spanning the mathematical foundations of deep learning, word embeddings,
         RNN and LSTM, and Transformer encoder-decoder architectures.
-      - Covered the applied stack: Hugging Face, prompting and chain-of-thought, LangChain and API usage,
-          retrievers and FAISS-based RAG, and alignment tuning (RLHF, DPO).
+      - Covered the applied stack, from Hugging Face and prompting with chain-of-thought to LangChain
+        and API usage, retrievers and FAISS-based RAG, and alignment tuning (RLHF, DPO).
       - Resolved environment and pipeline issues during labs and proctored evaluations.
     - company: Hyundai Motor Company
       position: Teaching assistant, AI and NLP training
