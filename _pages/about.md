@@ -27,7 +27,7 @@ latest_posts:
 
 I hold a Master's degree from the [Graduate School of Data Science (GSDS)](https://gsds.snu.ac.kr/) at Seoul National University, where I worked in the SKI-ML Lab on multimodal large language models and evaluation methodology. My thesis, UNREAL, asks whether multimodal LLMs actually reason from the video in front of them or fall back on physical priors learned during pretraining.
 
-Before joining GSDS, I worked as an ML/NLP Engineer at **Aimpact** for two years, where I built Korean language model pipelines, designed production NLP APIs, and deployed scalable services on AWS. I have hands-on experience spanning the full lifecycle of NLP systems — from data collection and model training to serving and monitoring in production.
+Before joining GSDS, I worked as a Data Scientist at [**Aimpact**](https://aimpact.kr/) for two years, where I built Korean language model pipelines, designed production NLP APIs, and deployed scalable services on AWS. I have hands-on experience spanning the full lifecycle of NLP systems — from data collection and model training to serving and monitoring in production.
 
 My interests lie in **multimodal large language models**, **physical reasoning**, and **evaluation and benchmark design** for language models.
 
@@ -36,5 +36,5 @@ My interests lie in **multimodal large language models**, **physical reasoning**
 **Background:**
 
 - B.S. in Geography Education, Seoul National University (2012–2021)
-- ML/NLP Engineer, Aimpact (2021–2023)
+- Data Scientist, [Aimpact](https://aimpact.kr/) (2021–2023)
 - M.S. in Data Science, GSDS, Seoul National University (2024–2026)
