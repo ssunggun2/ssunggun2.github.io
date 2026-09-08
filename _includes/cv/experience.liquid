@@ -18,10 +18,21 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% comment %}
+              Extract year only from dates like "1933-01-01" or just use "1933" as is.
+              A range that starts and ends in the same year is shown as that single
+              year, so a one-semester role reads "2025" rather than "2025 - 2025".
+            {% endcomment %}
+            {% assign startDate = start_date | split: '-' | first | strip %}
+            {% assign endDate = end_date | split: '-' | first | strip %}
+            {% if endDate == '' %}
+              {% assign endDate = 'Present' %}
+            {% endif %}
+            {% if startDate == endDate %}
+              {% assign date = startDate %}
+            {% else %}
+              {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% endif %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
