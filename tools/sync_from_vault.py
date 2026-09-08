@@ -53,6 +53,8 @@ def build_sections(p):
         sections["Education"] = p["education"]
     if p.get("experience"):
         sections["Experience"] = p["experience"]
+    if p.get("teaching"):
+        sections["Teaching"] = p["teaching"]
 
     pubs = []
     for e in p.get("publications") or []:

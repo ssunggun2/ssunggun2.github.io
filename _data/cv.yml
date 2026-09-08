@@ -62,20 +62,6 @@ cv:
         and scored final reports against a rubric'
       - 'Steering committee member, GSDS graduate student council (2026): helped plan and run department
         events'
-      - 'Teaching assistant, Foundations of Mathematics and Statistics for Data Science, SNU GSDS (Fall
-        2024, ~50 students): ran review sessions and office hours on linear algebra, multivariate calculus,
-        and probability and statistical inference, and graded assignments and exams against a shared rubric'
-      - 'Teaching assistant, Machine Learning and Deep Learning 1, SNU GSDS (Spring 2025, ~100 students):
-        supported students through PyTorch implementations of CNN, RNN, and Vision Transformer models,
-        debugged training and environment issues in office hours, and graded assignments and exams'
-      - 'Teaching assistant, Samsung Electronics DS2 program (summer 2025): supported an NLP and LLM intensive
-        for Samsung engineers at the SNU-Samsung joint research center, running TA office-hour sessions
-        on the mathematical foundations of deep learning, word embeddings, RNN and LSTM, Transformer encoder-decoder,
-        the Hugging Face stack, prompting and chain-of-thought, LangChain and API usage, retrievers and
-        FAISS-based RAG, and alignment tuning (RLHF, DPO); proctored evaluations'
-      - 'Teaching assistant, Hyundai Motor Company AI training (summer 2025): supported an AI and NLP
-        program for practicing engineers, running hands-on office-hour sessions, resolving environment
-        and pipeline issues during labs, and proctoring evaluations'
     - company: Aimpact
       position: ML/NLP Engineer
       location: Seoul, South Korea
@@ -88,6 +74,48 @@ cv:
       - Migrated backend from Flask to FastAPI with async processing for 3x throughput
       - Integrated Redis caching and AWS SQS/Lambda for scalable async workflows
       - Deployed and managed services on AWS ElasticBeanstalk
+    Teaching:
+    - company: Seoul National University, GSDS
+      position: Teaching assistant, Machine Learning and Deep Learning 1
+      location: Seoul, South Korea
+      start_date: 2025-03
+      end_date: 2025-06
+      summary: About 100 graduate students.
+      highlights:
+      - Supported PyTorch implementations of CNN, RNN, and Vision Transformer models.
+      - Debugged training and environment issues in office hours.
+      - Graded assignments and exams against a shared rubric.
+    - company: Seoul National University, GSDS
+      position: Teaching assistant, Foundations of Mathematics and Statistics for Data Science
+      location: Seoul, South Korea
+      start_date: 2024-09
+      end_date: 2024-12
+      summary: About 50 graduate students.
+      highlights:
+      - Ran review sessions and office hours on linear algebra, multivariate calculus, and probability
+        and statistical inference.
+      - Graded assignments and exams against a shared rubric.
+    - company: Samsung Electronics, DS2 program
+      position: Teaching assistant, NLP and LLM intensive
+      location: SNU-Samsung joint research center, Seoul
+      start_date: 2025-08
+      end_date: 2025-08
+      summary: Intensive course for practicing Samsung engineers.
+      highlights:
+      - Ran TA office-hour sessions spanning the mathematical foundations of deep learning, word embeddings,
+        RNN and LSTM, and Transformer encoder-decoder architectures.
+      - Covered the applied stack: Hugging Face, prompting and chain-of-thought, LangChain and API usage,
+          retrievers and FAISS-based RAG, and alignment tuning (RLHF, DPO).
+      - Resolved environment and pipeline issues during labs and proctored evaluations.
+    - company: Hyundai Motor Company
+      position: Teaching assistant, AI and NLP training
+      location: Seoul, South Korea
+      start_date: 2025-08
+      end_date: 2025-08
+      summary: Training program for practicing engineers.
+      highlights:
+      - Ran hands-on office-hour sessions for engineers applying AI methods in their own work.
+      - Resolved environment and pipeline issues during labs and proctored evaluations.
     Publications:
     - title: 'Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention'
       publisher: Findings of EMNLP
