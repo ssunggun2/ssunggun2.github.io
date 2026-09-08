@@ -60,6 +60,20 @@ cv:
         ran the weekly group meeting and paper seminars, and documented the procedures for handover'
       - 'Organizing committee, SNU AI Challenge 2026: designed the Kaggle task and evaluation metric,
         and scored final reports against a rubric'
+      - 'Teaching assistant, Foundations of Mathematics and Statistics for Data Science, SNU GSDS (Fall
+        2024, ~50 students): ran review sessions and office hours on linear algebra, multivariate calculus,
+        and probability and statistical inference, and graded assignments and exams against a shared rubric'
+      - 'Teaching assistant, Machine Learning and Deep Learning 1, SNU GSDS (Spring 2025, ~100 students):
+        supported students through PyTorch implementations of CNN, RNN, and Vision Transformer models,
+        debugged training and environment issues in office hours, and graded assignments and exams'
+      - 'Teaching assistant, Samsung Electronics DS2 program (summer 2025): supported an NLP and LLM intensive
+        for Samsung engineers at the SNU-Samsung joint research center, running TA office-hour sessions
+        on the mathematical foundations of deep learning, word embeddings, RNN and LSTM, Transformer encoder-decoder,
+        the Hugging Face stack, prompting and chain-of-thought, LangChain and API usage, retrievers and
+        FAISS-based RAG, and alignment tuning (RLHF, DPO); proctored evaluations'
+      - 'Teaching assistant, Hyundai Motor Company AI training (summer 2025): supported an AI and NLP
+        program for practicing engineers, running hands-on office-hour sessions, resolving environment
+        and pipeline issues during labs, and proctoring evaluations'
     - company: Aimpact
       position: ML/NLP Engineer
       location: Seoul, South Korea
@@ -83,6 +97,43 @@ cv:
         baseline.
 
         '
+    Projects:
+    - name: 'UNREAL: Uncovering Physics Reasoning Limits in Multimodal LLMs'
+      summary: First author. M.S. thesis and journal submission, 2025 to 2026.
+      highlights:
+      - Synthesized 1,528 controlled videos with staged QA across 15 categories of deliberate physics
+        violations using the Kubric simulator.
+      - Proposed Reality Bias Rate and World-Model Inconsistency Rate to separate reasoning from the video
+        in front of the model from reliance on pretrained physical priors, validated against a 13-annotator
+        human study.
+      - Benchmarked open and closed video MLLMs end to end, orchestrating the evaluation pipeline with
+        W&B run tracking.
+    - name: 'Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention'
+      url: https://openreview.net/forum?id=jqrg278fKi
+      summary: Second author. Findings of EMNLP 2026.
+      highlights:
+      - Co-developed a two-stage framework pairing a lightweight Longformer sieve with an LLM judge that
+        decides whether to answer or abstain.
+      - Improved system accuracy by 69.4%p and macro-F1 by 55.2%p over the retrieval-abstention baseline.
+      - Cut end-to-end inference cost by 1.99x, keeping the pipeline viable under latency constraints.
+    - name: Multimodal Shopping Agent
+      summary: Course project, SNU GSDS, October to December 2025.
+      highlights:
+      - Built a conversational commerce agent over GPT-4o that routes each turn into product QA, price
+        objection, substitute recommendation, or cart action through a Mixin-based controller.
+      - Designed a multimodal RAG path that chunks below-the-fold detail images and queries a vision model,
+        recovering nutrition and ingredient facts that text-only retrieval missed.
+      - Engineered an async Playwright crawler with session persistence and bot-detection handling for
+        reliable live retrieval and cart automation.
+    - name: Semantic Coherence Verification for Multimodal RAG-VQA
+      summary: Course research project, Machine Learning for Visual Understanding, SNU GSDS, spring 2025.
+      highlights:
+      - Identified distracting and conflicting retrieved evidence as a primary driver of hallucination
+        in multimodal RAG-VQA pipelines.
+      - Proposed a plug-and-play two-stage coherence verification module that runs with the retriever
+        and the vision-language model frozen, requiring no end-to-end retraining.
+      - Specified a retriever feedback loop that filters incoherent evidence before generation, and wrote
+        the full proposal in CVPR format.
     Skills:
     - name: Machine Learning & Deep Learning
       level: Advanced
