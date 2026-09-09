@@ -9,7 +9,8 @@ cv:
   image: ''
   summary: 'ML/NLP researcher working on multimodal large language models, physical reasoning, and evaluation
     methodology. M.S. in Data Science from Seoul National University (2026), with prior industry experience
-    building language model pipelines and production NLP APIs.
+    building Korean information extraction models and production NLP APIs for a commercial order processing
+    platform handling KRW 28.6B in cumulative transactions.
 
     '
   social_networks:
@@ -50,14 +51,17 @@ cv:
         in Kubric under 15 categories of deliberate physics violations with staged QA, and proposed two
         metrics (Reality Bias Rate, World-Model Inconsistency Rate) validated against a 13-annotator human
         study'
-      - 'Industry collaboration with LG (2026): led evaluation and dataset research for extending a Korean
-        LLM (EXAONE-3.5-7.8B-Instruct) beyond finance QA into long-tail expert domains, designing a pass@k
-        diagnostic framework (N=128) that separates latent from trained capability and grades benchmarks
-        into difficulty tiers by the pass@1 to pass@128 gap'
-      - 'Lab manager (2026): ran lab operations, including intern and member onboarding, seat and resource
-        allocation, and research budget handling with the advisor and administrative staff. Set the usage
-        policy for the shared GPU servers and the LLM API gateway, arbitrated allocation and outages,
-        ran the weekly group meeting and paper seminars, and documented the procedures for handover'
+      - 'Industry collaboration with LG AI Research (Feb-Aug 2026): owned dataset discovery and evaluation
+        criteria on the data team, extending a Korean LLM (EXAONE-3.5-7.8B-Instruct) from finance QA into
+        long-tail expert domains (circuit design and HDL, biomedicine) under a limited data budget. Designed
+        a pass@k diagnostic framework (N=128) separating latent from trained capability, graded benchmarks
+        into difficulty tiers by the pass@1 to pass@128 gap, and set the evaluation-set criteria after
+        showing multiple-choice formats saturate'
+      - 'Lab manager (Mar-Aug 2026): ran lab operations, including intern and member onboarding, seat
+        and resource allocation, and research budget handling with the advisor and administrative staff.
+        Set the usage policy for the shared GPU servers and the LLM API gateway, arbitrated allocation
+        and outages, ran the weekly group meeting and paper seminars, and documented the procedures for
+        handover'
       - 'Organizing committee, SNU AI Challenge 2026: designed the Kaggle task and evaluation metric,
         and scored final reports against a rubric'
       - 'Steering committee member, GSDS graduate student council (2026): helped plan and run department
@@ -69,7 +73,12 @@ cv:
       start_date: 2021-12
       end_date: 2023-12
       highlights:
-      - Built and trained Korean language models for address and message extraction
+      - Arrange, a direct-to-consumer order processing platform whose core feature is parsing free-form
+        Korean order messages from SMS and KakaoTalk into structured orders (KR patent 10-2287410). 6,150
+        merchants, 22,287 listed products, and KRW 28.6B in cumulative transactions as of Aug 2022.
+      - Built and trained Korean language models that extract address, recipient, product, and quantity
+        fields from free-form order messages, handling misspellings, abbreviations, and mixed road-name
+        and lot-number address formats
       - Designed and deployed NLP APIs using FastAPI, serving real-time inference
       - Implemented OCR pipelines integrating Naver Clova and GCP Vision APIs
       - Migrated backend from Flask to FastAPI with async processing for 3x throughput
