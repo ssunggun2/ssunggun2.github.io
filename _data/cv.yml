@@ -46,11 +46,14 @@ cv:
       start_date: 2024-03
       end_date: 2026-08
       highlights:
-      - 'M.S. thesis (UNREAL): a benchmark that tests whether multimodal LLMs reason from the video in
-        front of them or fall back on physical priors learned in pretraining. Synthesized 1,528 videos
-        in Kubric under 15 categories of deliberate physics violations with staged QA, and proposed two
-        metrics (Reality Bias Rate, World-Model Inconsistency Rate) validated against a 13-annotator human
-        study. Submitted to CVPR 2027 (under review)'
+      - 'M.S. thesis (UNREAL): a simulation benchmark that alters physical rules to test whether multimodal
+        LLMs infer the governing dynamics from video or revert to familiar real-world physics. Built a
+        fully automated Kubric pipeline, driven by a tool-augmented LLM agent, that generated 1,528 validated
+        scenes (1,359 under 15 altered rules, 169 real-physics controls) with task-decomposed QA from
+        perception to future prediction. Proposed two diagnostic metrics (Reality Bias Rate, Rule-Prediction
+        Inconsistency Rate) and ran a 12-annotator human study (2,769 judgments). All 12 evaluated MLLMs
+        fell below 10% rule-identification accuracy on altered-physics scenes, versus 45.4% for humans.
+        Submitted to CVPR 2027 (under review)'
       - 'Industry collaboration with LG AI Research (Feb-Aug 2026): owned dataset discovery and evaluation
         criteria on the data team, extending a Korean LLM (EXAONE-3.5-7.8B-Instruct) from finance QA into
         long-tail expert domains (circuit design and HDL, biomedicine) under a limited data budget. Designed
@@ -142,16 +145,18 @@ cv:
     - name: 'UNREAL: Uncovering Physics Reasoning Limits in Multimodal LLMs'
       summary: First author. M.S. thesis, 2025 to 2026. Under review at CVPR 2027.
       highlights:
-      - Synthesized 1,528 controlled videos with staged QA across 15 categories of deliberate physics
-        violations using the Kubric simulator.
-      - Proposed Reality Bias Rate and World-Model Inconsistency Rate to separate reasoning from the video
-        in front of the model from reliance on pretrained physical priors, validated against a 13-annotator
-        human study.
-      - Benchmarked open and closed video MLLMs end to end, orchestrating the evaluation pipeline with
-        W&B run tracking.
-      - Built PhysAgent, an agent pipeline that delegates perception to vision expert modules (Depth-Anything-V2,
-        RAFT, SAM2) and leaves reasoning to the MLLM, improving over the same backbone; also designed
-        an intervention ladder from world-rule injection to test-time training.
+      - Built a fully automated Kubric scene generation and validation pipeline driven by a tool-augmented
+        LLM agent, producing 1,528 scenes (1,359 under 15 altered physical rules and 169 real-physics
+        controls).
+      - Designed a task-decomposed evaluation (perception, rule identification, rule description, future
+        prediction) and two metrics, Reality Bias Rate and Rule-Prediction Inconsistency Rate, with a
+        12-annotator human baseline (2,769 judgments).
+      - Evaluated 12 open and proprietary MLLMs, including NVIDIA Cosmos Physical AI models and GPT-5-mini.
+        Models reached up to 76.3% rule identification on real physics but fell below 10% on altered physics
+        (humans 45.4%), and 79.2-97.5% of their predictions violated a correctly identified rule (humans
+        18.4%).
+      - Showed through information scaffolding that giving the model the correct rule improves rule identification
+        but barely changes future prediction, locating a separate rule-application bottleneck.
     - name: 'Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention'
       url: https://openreview.net/forum?id=jqrg278fKi
       summary: Second author. Findings of EMNLP 2026.
