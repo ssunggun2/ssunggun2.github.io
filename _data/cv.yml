@@ -50,7 +50,7 @@ cv:
         front of them or fall back on physical priors learned in pretraining. Synthesized 1,528 videos
         in Kubric under 15 categories of deliberate physics violations with staged QA, and proposed two
         metrics (Reality Bias Rate, World-Model Inconsistency Rate) validated against a 13-annotator human
-        study'
+        study. Submitted to CVPR 2027 (under review)'
       - 'Industry collaboration with LG AI Research (Feb-Aug 2026): owned dataset discovery and evaluation
         criteria on the data team, extending a Korean LLM (EXAONE-3.5-7.8B-Instruct) from finance QA into
         long-tail expert domains (circuit design and HDL, biomedicine) under a limited data budget. Designed
@@ -140,7 +140,7 @@ cv:
         '
     Projects:
     - name: 'UNREAL: Uncovering Physics Reasoning Limits in Multimodal LLMs'
-      summary: First author. M.S. thesis and journal submission, 2025 to 2026.
+      summary: First author. M.S. thesis, 2025 to 2026. Under review at CVPR 2027.
       highlights:
       - Synthesized 1,528 controlled videos with staged QA across 15 categories of deliberate physics
         violations using the Kubric simulator.
@@ -149,6 +149,9 @@ cv:
         human study.
       - Benchmarked open and closed video MLLMs end to end, orchestrating the evaluation pipeline with
         W&B run tracking.
+      - Built PhysAgent, an agent pipeline that delegates perception to vision expert modules (Depth-Anything-V2,
+        RAFT, SAM2) and leaves reasoning to the MLLM, improving over the same backbone; also designed
+        an intervention ladder from world-rule injection to test-time training.
     - name: 'Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention'
       url: https://openreview.net/forum?id=jqrg278fKi
       summary: Second author. Findings of EMNLP 2026.
